@@ -1,0 +1,238 @@
+
+/****************************************              GLOBAL STYLES               *****************************************/
+
+
+html {
+    background-color: #990000;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding-bottom: 0px;
+}
+
+#container {
+    max-width: 1100px !important;
+    text-align: center;
+    margin: auto;
+    font-family: Palatino, sans-serif;        
+}
+
+h1 { 
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: normal;
+    margin: 60px 0px 0px;  
+} 
+
+.footer {
+    clear:both;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 60px;
+    text-align: center;
+}
+    
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+nav li {
+    display: inline-block;   
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff; 
+    width: 130px;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 15px;   
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0a0a0a;
+}
+
+h2 {
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+h3 a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+h3 a:hover {
+    color: #0a0a0a;
+}
+
+p {
+    color: #ffffff;
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top: 0px;
+    font-size: 14px;
+}
+
+
+/******************************************                 INDEX PAGE STYLES           *****************************************/
+
+
+h3 {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+
+#indextable {
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 50px;   
+  font-size: 12px;  
+  border-radius:60px;
+}
+
+#indextable td, #indextable th {
+  border: 1px solid #FFEBEB;
+  padding: 3px;
+  text-align: left;
+}
+
+#indextable tr:nth-child(even){
+    background-color: #ffffff;
+}
+
+#indextable tr:nth-child(odd){
+    background-color: #FFEBEB;
+}
+
+#indextable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+}
+
+#moreproducts {
+ display: none;  
+}
+
+.productstable {
+    display: none;
+}
+
+
+/****************************************                OFFICES PAGE STYLES             ************************************************/
+
+
+.employeetable {
+    display: none;   
+}
+
+#officetable table {
+  width: 80%;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;    
+}
+
+#officetable td, #officetable th {
+  border: 1px solid #FFEBEB;
+  padding: 3px;
+  text-align: left;
+}
+
+#officetable tr:nth-child(even){
+    background-color: #ffffff;
+}
+
+#officetable tr:nth-child(odd){
+    background-color: #FFEBEB;
+}
+
+#officetable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+}
+
+table.employeetable td {
+  text-align: left;
+  background-color: #990000;
+  color: white;
+  width: 5%;
+}
+
+
+
+/******************************************            PAYMENTS PAGE STYLES             *************************************/
+
+
+
+.customertable {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+#paymentstable table {
+  width: 80%;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;    
+}
+
+#paymentstable td, #paymentstable th {
+  border: 1px solid #FFEBEB;
+  padding: 8px;
+    text-align: left;
+}
+
+#paymentstable tr:nth-child(even){
+    background-color: #ffffff;
+}
+
+#paymentstable tr:nth-child(odd){
+    background-color: #FFEBEB;
+}
+
+#paymentstable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+}
+
+table.customertable td {
+  text-align: left;
+  background-color: #990000;
+  color: white;
+  width: 5%;
+}
+
+
+
+
+/*
+References
+
+https://www.w3schools.com/css/css_table.asp*/
