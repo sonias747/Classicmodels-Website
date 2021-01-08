@@ -2,7 +2,7 @@
 
 (HTML, CSS, JavaScript, PHP, MySQL)
 
-Website which displays information from a MySQL database.
+Website which displays information about classic cars and other modes of transportation from a MySQL database.
 
 The website uses PHP to manipulate data from the MySQL database called 'mysqlsampledatabase.sql'. 
 
